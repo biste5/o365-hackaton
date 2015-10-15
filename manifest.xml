@@ -4,7 +4,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Office 365 Apps</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="delve_files_linker"/>
+  <DisplayName DefaultValue="Delve files linker"/>
   <Description DefaultValue="Looks for urls of documents in Office Graph"/>
   <AppDomains>
     <AppDomain>https://login.windows.net</AppDomain>
