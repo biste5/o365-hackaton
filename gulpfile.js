@@ -13,7 +13,7 @@ gulp.task('serve-static', function(){
       https: true,
       port: '8443',
       host: 'localhost',
-      directoryListing: true,
+      directoryListing: false,
       fallback: 'index.html'
     }));
 });
