@@ -2,11 +2,15 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
   <Id>a3ccebd1-03c1-4e7e-a601-7c2b61c1b62b</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>[Provider name]</ProviderName>
+  <ProviderName>Office 365 Apps</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="delve_files_linker"/>
-  <Description DefaultValue="[Task pane Add-in description]"/>
-  <SupportUrl DefaultValue="[Support URL]"/>
+  <Description DefaultValue="Looks for urls of documents in Office Graph"/>
+  <AppDomains>
+    <AppDomain>https://login.windows.net</AppDomain>
+    <AppDomain>https://login.microsoftonline.net</AppDomain>
+    <AppDomain>https://login.microsoftonline.com</AppDomain>
+  </AppDomains>
   <Hosts>
     <Host Name="Document"/>
     <Host Name="Workbook"/>
